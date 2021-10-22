@@ -42,11 +42,27 @@ body  {
     position: relative;
 }
 
+.mrg-top10  {
+    margin-top: 10em;
+}
+
+.a-blu  {
+    color: #2577ff;
+}
+
 /* header  */
 header  {
     width: 100%;
     margin-top: 4.02em;
     background-color: #b4d0e7;
+}
+
+.mrg-top1  {
+    margin-top: 1em;
+}
+
+li [class*=fa]  {
+    display: inline-block;
 }
 
 /* navbar */
@@ -70,7 +86,8 @@ nav div:last-child  {
 }
 
 .navmenu,
-.jumbo-li  {
+.jumbo-li,
+.li-none  {
     list-style: none;
 }
 .navmenu li  {
@@ -128,3 +145,59 @@ h1  {
     width: 200%;
 }
 
+/* main */
+main  {
+    width: 65%;
+    height: 400px;
+    margin: 0 auto;
+    background-color: chartreuse;
+}
+
+h2  {
+    font-size: 2.8em;
+    font-weight: bold;
+}
+
+.li-none li  {
+    display: inline-block;
+    width: 12em;
+    margin-top: 2em;
+}
+
+.fa-circle:hover  {
+    color: #0061ff;
+}
+
+.pack  {
+    text-align: center;
+    line-height: 2.8em;
+    border-bottom: 1px solid grey;
+}
+
+.col-li-margin  {
+    margin: 0 1.5em;
+}
+
+.col-left  {
+    width: 30%;
+    border: 1px solid grey;
+}
+
+.btn-try  {
+    margin: 4em 0 2em;
+    line-height: 1.5em;
+}
+
+.btn-try .btn  {
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    text-decoration: none;
+}
+
+hr  {
+    margin: 2em 0;
+    width: 18%;
+    background-color: lightgrey;
+    border: 1px solid lightgrey;
+}
