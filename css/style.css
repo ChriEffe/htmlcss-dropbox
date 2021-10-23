@@ -6,7 +6,6 @@
 
 html  {
     font-size: 100%;
-    font-weight: 600;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -42,12 +41,20 @@ body  {
     position: relative;
 }
 
+.mrg-top1  {
+    margin-top: 1em;
+}
+
 .mrg-top10  {
     margin-top: 10em;
 }
 
 .a-blu  {
     color: #2577ff;
+}
+
+.bold  {
+    font-weight: bold;
 }
 
 /* header  */
@@ -57,9 +64,6 @@ header  {
     background-color: #b4d0e7;
 }
 
-.mrg-top1  {
-    margin-top: 1em;
-}
 
 li [class*=fa]  {
     display: inline-block;
@@ -148,9 +152,11 @@ h1  {
 /* main */
 main  {
     width: 65%;
-    height: 400px;
     margin: 0 auto;
-    background-color: chartreuse;
+}
+
+.col-mrg  {
+    margin: 0 3.858em;
 }
 
 h2  {
@@ -158,10 +164,9 @@ h2  {
     font-weight: bold;
 }
 
-.li-none li  {
+.billing  {
     display: inline-block;
-    width: 12em;
-    margin-top: 2em;
+    margin: 3em 1em 1em 0;
 }
 
 .fa-circle:hover  {
@@ -178,9 +183,18 @@ h2  {
     margin: 0 1.5em;
 }
 
-.col-left  {
+.col  {
     width: 30%;
     border: 1px solid grey;
+}
+
+.grey  {
+    color: grey;
+    margin-bottom: 3em;
+}
+
+.col-content > li {
+    margin-bottom: 2em;
 }
 
 .btn-try  {
@@ -195,9 +209,19 @@ h2  {
     text-decoration: none;
 }
 
+li h3  {
+    font-weight: bold;
+    font-size: 2em;
+    line-height: 2.5em;
+}
+
 hr  {
-    margin: 2em 0;
+    margin: 3em 0;
     width: 18%;
     background-color: lightgrey;
     border: 1px solid lightgrey;
+}
+
+.fa-check  {
+    color: #0061ff;
 }
