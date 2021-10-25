@@ -59,6 +59,15 @@ body  {
 .mrg2  {
     margin: 2em;
 }
+
+.mrg-side5  {
+    margin: 0 5%;
+}
+
+.mrg-btm1  {
+    margin-bottom: 1em;
+}
+
 .mrg-top1  {
     margin-top: 1em;
 }
@@ -69,6 +78,10 @@ body  {
 
 .mrg-top3  {
     margin-top: 3em;
+}
+
+.mrg-top5  {
+    margin-top: 5em;
 }
 
 .mrg-top10  {
@@ -94,6 +107,10 @@ body  {
 
 .wdt-70  {
     width: 70%;
+}
+
+.wdt-100  {
+    width: 100%;
 }
 
 /* header  */
@@ -284,7 +301,7 @@ h4  {
 }
 
 /* third section */
-h3 ~ p  {
+.pdn-partner p  {
     line-height: 2em;
     margin: 1em 0;
 }
@@ -297,4 +314,9 @@ button  {
     border: 1px solid;
     padding: 0.5em 1em;
     background-color: white;
+}
+
+/* fourth section */
+p > a  {
+    color: black;
 }
