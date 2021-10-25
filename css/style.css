@@ -97,6 +97,17 @@ body  {
 }
 
 /* width */
+.wdt-5  {
+    width: 5%;
+}
+.wdt-15  {
+    width: 15%;
+}
+
+.wdt-20  {
+    width: 20%;
+}
+
 .wdt-25  {
     width: 25%;
 }
@@ -112,6 +123,10 @@ body  {
 
 .wdt-60  {
     width: 60%;
+}
+
+.wdt-65  {
+    width: 65%;
 }
 
 .wdt-70  {
@@ -336,7 +351,7 @@ h2 ~ a  {
     line-height: 4em;
 }
 
-/* loghi */
+/* left squares */
 .square  {
     width: 50%;
     background-color: #a2d39b;
@@ -382,4 +397,61 @@ h2 ~ a  {
 .topps  {
     width: 100%;
     padding: 4.8em 3em;
+}
+
+.central-square  {
+    background-color: #f5f5f5;
+    padding: 3em;
+}
+
+p  ~ span  {
+    display: inline-block;
+    margin: 2em 0 4em;
+}
+
+/* right squares */
+.r-square  {
+    width: 50%;
+    background-color: #d5001f;
+}
+
+.r-square2  {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    background-color: #b4d0e7;
+}
+
+.r-square3  {
+    width: 50%;
+    background-color: #0d2481;
+}
+
+.r-square4  {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    background-color: #ffd830;
+}
+
+.bicycle  {
+    width: 100%;
+    padding: 6em 3em;
+}
+
+.hearst  {
+    width: 100%;
+    padding: 7em 3em;
+}
+
+.lonely  {
+    width: 100%;
+    padding: 5em 3em;
+}
+
+.clear  {
+    width: 100%;
+    padding: 5em 4em;
 }
