@@ -29,25 +29,9 @@ body  {
     padding: 0 1em;
 }
 
-.width-50  {
-    width: 50%;
-}
-
 .font-sz08  {
     font-size: 0.8em;
 }  
-
-.relative  {
-    position: relative;
-}
-
-.mrg-top1  {
-    margin-top: 1em;
-}
-
-.mrg-top10  {
-    margin-top: 10em;
-}
 
 .a-blu  {
     color: #2577ff;
@@ -57,13 +41,53 @@ body  {
     font-weight: bold;
 }
 
+.brd  {
+    border: 1px solid grey;
+}
+
+.relative  {
+    position: relative;
+}
+
+/* margin */
+.mrg2  {
+    margin: 2em;
+}
+.mrg-top1  {
+    margin-top: 1em;
+}
+
+.mrg-top2  {
+    margin-top: 2em;
+}
+
+.mrg-top3  {
+    margin-top: 3em;
+}
+
+.mrg-top15  {
+    margin-top: 15em;
+}
+
+/* width */
+.wdt-30  {
+    width: 30%;
+}
+
+.width-50  {
+    width: 50%;
+}
+
+.wdt-70  {
+    width: 70%;
+}
+
 /* header  */
 header  {
     width: 100%;
     margin-top: 4.02em;
     background-color: #b4d0e7;
 }
-
 
 li [class*=fa]  {
     display: inline-block;
@@ -176,6 +200,7 @@ h2  {
 .pack  {
     text-align: center;
     line-height: 2.8em;
+    font-weight: 600;
     border-bottom: 1px solid grey;
 }
 
@@ -184,6 +209,7 @@ h2  {
 }
 
 .col  {
+    height: 75em;
     width: 30%;
     border: 1px solid grey;
 }
@@ -224,4 +250,21 @@ hr  {
 
 .fa-check  {
     color: #0061ff;
+}
+
+/* second section */
+
+h3 ~ a  {
+    text-decoration: none;
+    text-align: center;
+    line-height: 2em;
+}
+
+div > h3  {
+    font-size: 2em;
+}
+
+h4  {
+    line-height: 3em;
+    margin-bottom: 1em;
 }
