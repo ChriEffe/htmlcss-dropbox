@@ -25,6 +25,10 @@ body  {
     float: left;
 }
 
+.float-r  {
+    float: right;
+}
+
 .invert  {
     filter: invert(100%);
 }
@@ -475,4 +479,23 @@ p  ~ span  {
     background-color: white;
     color: black;
     line-height: 2.5em;
+}
+
+/* faq */
+.container > h3  {
+    padding: 4em 0 1em 0;
+    border-bottom: 1px solid lightgray;
+}
+
+h3 ~ ul  {
+    line-height: 5em;
+    font-weight: bold;
+}
+
+.faq li  {
+    border-bottom: 1px solid lightgray;
+}
+
+.fa-chevron-down  {
+    padding: 2em;
 }
