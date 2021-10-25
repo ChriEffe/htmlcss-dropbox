@@ -455,3 +455,24 @@ p  ~ span  {
     width: 100%;
     padding: 5em 4em;
 }
+
+/* free try */
+.free-try  {
+    background-color: #b4d0e7;
+    margin: 0 auto;
+}
+
+.free-try h2  {
+    margin: 4em 6em 4em 0;
+    color: #61082b;
+}
+
+.free-try a  {
+    margin-top: 10em;
+    width: 28%;
+    text-decoration: none;
+    text-align: center;
+    background-color: white;
+    color: black;
+    line-height: 2.5em;
+}
