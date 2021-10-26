@@ -267,7 +267,7 @@ h2  {
 }
 
 .col  {
-    height: 75em;
+    min-height: 75em;
     width: 30%;
     border: 1px solid grey;
 }
@@ -498,4 +498,42 @@ h3 ~ ul  {
 
 .fa-chevron-down  {
     padding: 2em;
+}
+
+/* footer */
+footer  {
+    background-color: black;
+    margin-top: 5em;
+    font-size: 0.8em;
+}
+
+footer  > div  {
+    padding: 10em 10em 0 10em;
+}
+
+footer div ul  {
+    margin-right: 9em;
+    color: white;
+}
+li > h4  {
+    font-size: 1.5em;
+}
+
+footer div ul li  {
+    line-height: 2em;
+}
+
+footer hr  {
+    border: 1px solid lightgray;
+    width: 6%;
+    margin-left: 10em;
+}
+
+footer span  {
+    color: lightgray;
+    margin-left: 10em;
+}
+
+.fa-sort-up  {
+    vertical-align: sub;
 }
