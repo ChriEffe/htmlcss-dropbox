@@ -500,6 +500,26 @@ h3 ~ ul  {
     padding: 2em;
 }
 
+.fa-chevron-up  {
+    margin-top: -5em;
+    padding: 2em
+}
+
+.hidden  {
+    display: none;
+    line-height: 1.5em;
+    font-size: 0.9em;
+    font-weight: 500;
+}
+
+.show:hover .hidden  {
+    display: block;
+}
+
+.show:hover .fa-chevron-down {
+    display: none;
+}
+
 /* footer */
 footer  {
     background-color: black;
