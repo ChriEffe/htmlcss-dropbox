@@ -607,8 +607,13 @@ footer div ul  {
     margin-right: 9em;
     color: white;
 }
-li > h4  {
+
+footer div ul li a  {
+    color: white;
+}
+footer div h4  {
     font-size: 1.5em;
+    color: white;
 }
 
 footer div ul li  {
