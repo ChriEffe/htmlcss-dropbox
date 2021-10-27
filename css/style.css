@@ -198,6 +198,31 @@ li a {
     padding: 0.3em 1em;
 }
 
+/* navbar hidden menu */
+.hidden-menu{
+    display: none;
+}
+.hidden-menu li  {
+    width: 10em;
+    background-color: white;
+    display: block;
+    position: relative;
+    list-style-type: none;
+    text-align: initial;
+    box-shadow: 0px 10px 12px 5px rgba(0,0,0,0.2);
+}
+
+.hidden-menu li:hover  {
+    border-bottom: 3px solid black;
+}
+
+li.brd-btm-hover:hover .hidden-menu  {
+    display:block;
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 5.35em;
+}
+
 /* jumbotron */
 .jumbotron  {
     width: 80%;
@@ -505,6 +530,7 @@ h3 ~ ul  {
     padding: 2em
 }
 
+/* hidden faq */
 .hidden  {
     display: none;
     line-height: 1.5em;
