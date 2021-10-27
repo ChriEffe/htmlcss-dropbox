@@ -180,7 +180,6 @@ nav div:last-child  {
 .navmenu li  {
     display: inline-block;
     padding: 0 1em;
-    
 }
 
 li a {
@@ -202,6 +201,7 @@ li a {
 .hidden-menu{
     display: none;
 }
+
 .hidden-menu li  {
     width: 10em;
     background-color: white;
@@ -229,6 +229,7 @@ li.brd-btm-hover:hover .hidden-menu  {
     margin: 0 auto;
     padding-top: 3em;
 }
+
 h1  {
     font-size: 4.2em;
 }
@@ -252,6 +253,7 @@ h1  {
     font-size: 4em;
     margin: 0.5em 0 0.8em;
 }
+
 .jumbo  {
     position: absolute;
     width: 200%;
@@ -299,11 +301,8 @@ h2  {
 
 .grey  {
     color: grey;
-    margin-bottom: 3em;
-}
-
-.col-content > li {
     margin-bottom: 2em;
+    display: block;
 }
 
 .btn-try  {
@@ -318,7 +317,7 @@ h2  {
     text-decoration: none;
 }
 
-li h3  {
+.pack-type  {
     font-weight: bold;
     font-size: 2em;
     line-height: 2.5em;
@@ -335,8 +334,27 @@ hr  {
     color: #0061ff;
 }
 
-/* second section */
+.col-icon li,
+.col-content li,
+.col-check li,
+.col-content-check li  {
+   margin: 2em 0;
+}
 
+.col-icon,
+.col-check  {
+    margin-right: 0.2em;
+}
+.col-content,
+.col-content-check  {
+    width: 18em;
+}
+
+ul .first-check  {
+    margin-bottom: 3.5em;
+}
+
+/* second section */
 h3 ~ a  {
     text-decoration: none;
     text-align: center;
@@ -382,113 +400,141 @@ h2 ~ a  {
 
 /* left squares */
 .square  {
+    height: 190px;
     width: 50%;
+    position: relative;
     background-color: #a2d39b;
     border: 0.8em solid #d0e9cd;
 }
 
 .square2  {
+    height: 190px;
     width: 50%;
     background-color: #61082b;
-    position: absolute;
-    top: 0;
-    right: 0;
+    position: relative;
 }
 
 .square3  {
+    height: 190px;
     width: 50%;
     background-color: #0093ce;
+    position: relative;
 }
 
 .square4  {
+    height: 190px;
     width: 50%;
     background-color: #ff1c1c;
-    position: absolute;
-    bottom: 0;
-    right: 0;
+    position: relative;
 }
 
 .designit  {
-    width: 100%;
-    padding: 6em 3em;
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .arizona  {
-    width: 100%;
-    padding: 6em 4em;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .florida  {
-    width: 100%;
-    padding: 6em 3em;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .topps  {
-    width: 100%;
-    padding: 4.8em 3em;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .central-square  {
     background-color: #f5f5f5;
-    padding: 3em;
+    padding: 2.8em;
 }
 
-p  ~ span  {
+.signature  {
     display: inline-block;
     margin: 2em 0 4em;
 }
 
 /* right squares */
 .r-square  {
+    height: 190px;
     width: 50%;
     background-color: #d5001f;
+    position: relative;
 }
 
 .r-square2  {
-    position: absolute;
-    top: 0;
-    right: 0;
+    position: relative;
+    height: 190px;
     width: 50%;
     background-color: #b4d0e7;
 }
 
 .r-square3  {
+    height: 190px;
     width: 50%;
     background-color: #0d2481;
+    position: relative;
 }
 
 .r-square4  {
-    position: absolute;
-    bottom: 0;
-    right: 0;
+    position: relative;
+    height: 190px;
     width: 50%;
     background-color: #ffd830;
 }
 
 .bicycle  {
-    width: 100%;
-    padding: 6em 3em;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .hearst  {
-    width: 100%;
-    padding: 7em 3em;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .lonely  {
-    width: 100%;
-    padding: 5em 3em;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .clear  {
-    width: 100%;
-    padding: 5em 4em;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /* free try */
 .free-try  {
     background-color: #b4d0e7;
-    margin: 0 auto;
+    margin: -6px auto;
 }
 
 .free-try h2  {
@@ -512,7 +558,7 @@ p  ~ span  {
     border-bottom: 1px solid lightgray;
 }
 
-h3 ~ ul  {
+.faq  {
     line-height: 5em;
     font-weight: bold;
 }
